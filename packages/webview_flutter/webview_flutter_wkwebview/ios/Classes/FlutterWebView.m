@@ -689,9 +689,9 @@
     createWebViewWithConfiguration:(WKWebViewConfiguration *)configuration
                forNavigationAction:(WKNavigationAction *)navigationAction
                     windowFeatures:(WKWindowFeatures *)windowFeatures {
-  if (!navigationAction.targetFrame.isMainFrame) {
-    [webView loadRequest:navigationAction.request];
-  }
+//   if (!navigationAction.targetFrame.isMainFrame) {
+//     [webView loadRequest:navigationAction.request];
+//   }
 
   return nil;
 }
